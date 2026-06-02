@@ -26,6 +26,8 @@ Start the API:
 
 Server will run at `http://127.0.0.1:8000`.
 
+Docs will run at `http://127.0.0.1:8000/docs`
+
 ## API Endpoints
 
 - `GET /health` - health check
