@@ -11,8 +11,8 @@ Basic chatbot backend built with FastAPI, LangChain, and Ollama.
 
 1. Create and activate a virtual environment:
    - Windows PowerShell:
-     - `python -m venv .venv`
-     - `.venv\Scripts\Activate.ps1`
+     - `python -m venv venv`
+     - `venv\Scripts\activate`
 2. Install dependencies:
    - `pip install -r requirements.txt`
 3. Pull a model in Ollama (example):
@@ -55,3 +55,7 @@ Server will run at `http://127.0.0.1:8000`.
 
 - `OLLAMA_MODEL` (default: `llama3.1`)
 - `OLLAMA_BASE_URL` (default: `http://localhost:11434`)
+
+## IT works!
+
+![image](image.png)
