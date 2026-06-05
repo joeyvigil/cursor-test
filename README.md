@@ -28,6 +28,13 @@ Server will run at `http://127.0.0.1:8000`.
 
 Docs will run at `http://127.0.0.1:8000/docs`
 
+Start the React App:
+
+`cd vite-react-project`
+
+`npm run dev`
+
+
 ## API Endpoints
 
 - `GET /health` - health check
@@ -58,6 +65,6 @@ Docs will run at `http://127.0.0.1:8000/docs`
 - `OLLAMA_MODEL` (default: `llama3.1`)
 - `OLLAMA_BASE_URL` (default: `http://localhost:11434`)
 
-## IT works!
+## Fronend Run
 
-![image](image.png)
+
