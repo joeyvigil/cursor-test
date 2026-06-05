@@ -28,9 +28,11 @@ Server will run at `http://127.0.0.1:8000`.
 
 Docs will run at `http://127.0.0.1:8000/docs`
 
-Start the React App:
+Start the React App (in a separate terminal):
 
 `cd vite-react-project`
+
+first time only: `npm install`
 
 `npm run dev`
 
