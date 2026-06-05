@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState } from 'react'
+import MessageContent from './MessageContent.jsx'
 import './App.css'
 
 const API_BASE = '/api'
@@ -114,7 +115,9 @@ function App() {
           {messages.map((msg, i) => (
             <li key={i} className={`message message--${msg.role}`}>
               <span className="message-label">{msg.role === 'user' ? 'You' : 'Assistant'}</span>
-              <div className="message-bubble">{msg.content}</div>
+              <div className={`message-bubble${msg.role === 'assistant' ? ' message-bubble--markdown' : ''}`}>
+                <MessageContent content={msg.content} role={msg.role} />
+              </div>
             </li>
           ))}
           {isLoading && (

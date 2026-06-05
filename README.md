@@ -65,6 +65,3 @@ Start the React App:
 - `OLLAMA_MODEL` (default: `llama3.1`)
 - `OLLAMA_BASE_URL` (default: `http://localhost:11434`)
 
-## Fronend Run
-
-
